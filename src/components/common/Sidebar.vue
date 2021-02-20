@@ -61,6 +61,11 @@ export default {
                     index: 'dashboard',
                     title: '系统首页'
                 },
+              {
+                icon: 'el-icon-lx-rankfill',
+                index: 'findjob',
+                title: '岗位查找'
+              },
                 {
                     icon: 'el-icon-lx-cascades',
                     index: 'table',

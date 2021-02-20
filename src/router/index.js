@@ -20,8 +20,13 @@ export default new Router({
                     meta: { title: '系统首页' }
                 },
                 {
+                    path: '/findjob',
+                    component:()=>import(/* webpackChunkName:"findjob" */'../components/function/findjob.vue'),
+                    meta: {title: '岗位查找'}
+                },
+                {
                     path: '/icon',
-                    component: () => import(/* webpackChunkName: "icon" */ '../components/page/Icon.vue'),
+                    component: () => import(/* webpackChunkName: "icon" */'../components/page/Icon.vue'),
                     meta: { title: '自定义图标' }
                 },
                 {
